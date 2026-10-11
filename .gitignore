@@ -214,6 +214,17 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# Exclude model weights & deployment packages
+*.pkl
+*.h5
+*.pb
+
+# Exclude raw data files
+*.csv
+*.tif
+*.tiff
+*.geojson
 __marimo__/
 
 # Streamlit
